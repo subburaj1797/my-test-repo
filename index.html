@@ -4,42 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyOVhJLLeF5P6Py5lN7qLd5dFyPnqjJz3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <header>
+
+    <header class="bg-dark text-white text-center p-5">
         <h1>Your Name</h1>
-        <p>Web Developer</p>
+        <p class="lead">Web Developer</p>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio! I am a passionate web developer with a focus on creating engaging and user-friendly
-            websites.</p>
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p class="text-center">Welcome to my portfolio! I am a passionate web developer with a focus on creating
+                engaging and user-friendly websites.</p>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 1</h3>
+                            <p class="card-text">Description of Project 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 2</h3>
+                            <p class="card-text">Description of Project 2.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of Project 2.</p>
-        </div>
-        <!-- Add more projects as needed -->
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: your.email@example.com</p>
-        <p>LinkedIn: linkedin.com/in/yourname</p>
-        <p>GitHub: github.com/yourusername</p>
+    <section id="contact" class="text-white text-center py-5" style="background-color: #333;">
+        <div class="container">
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: linkedin.com/in/yourname</p>
+            <p>GitHub: github.com/yourusername</p>
+        </div>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-4hA1HAHR1+XbmlsAqGUeXJ4aJUoZndz5ECmrVFCqO/6xZwARtpoQ0GfWqXwWyN1k"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyOVhJLLeF5P6Py5lN7qLd5dFyPnqjJz3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
