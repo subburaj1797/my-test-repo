@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+section {
+    padding: 40px;
+}
+
+#about {
+    background-color: #f4f4f4;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+}
+
+/* Add more styles as needed */
